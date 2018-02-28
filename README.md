@@ -52,6 +52,7 @@ Clone the repo somewhere and cd into it. Then:<br/>
 <pre>
 composer install
 npm install --global gulp-cli
+npm install --global --production windows-build-tools (On Windows Only)
 npm shrinkwrap
 npm install
 cp .env-example .env
